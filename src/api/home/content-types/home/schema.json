@@ -1,0 +1,78 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "price": {
+      "type": "decimal",
+      "required": true
+    },
+    "category": {
+      "type": "string",
+      "required": true
+    },
+    "sold": {
+      "type": "boolean",
+      "required": true
+    },
+    "dinning": {
+      "type": "boolean",
+      "required": true
+    },
+    "pool": {
+      "type": "boolean",
+      "required": true
+    },
+    "park": {
+      "type": "boolean",
+      "required": true
+    },
+    "bq": {
+      "type": "boolean",
+      "required": true
+    },
+    "gym": {
+      "type": "boolean",
+      "required": true
+    },
+    "study": {
+      "type": "boolean",
+      "required": true
+    },
+    "store": {
+      "type": "boolean",
+      "required": true
+    },
+    "lounge": {
+      "type": "boolean",
+      "required": true
+    },
+    "img": {
+      "type": "component",
+      "repeatable": true,
+      "component": "images.images",
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
